@@ -1,0 +1,53 @@
+<! Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet"href="style.css">
+          
+    </head>
+    <body>
+        <header><h1>E-VOTING SYSTEM</h1></header>
+        <div class="login">
+            <form name="credentials" method="post" onsubmit = "return validate(event);">
+                <label><h2>Login</h2></label>
+                <label id="user">Student Id</label>
+                <input name="student_id" type="text">
+                <label id="user">Password</label>
+                <input name="code" type="Password">
+                <button type ="submit">login</button>
+                <label id='info'></label>
+            
+            </form>
+      </div>
+    </body>
+    <script lang="Javascript">
+        
+        function validate(event) {
+            event.preventDefault()
+            var user = document.credentials.student_id.value;
+            var password = document.credentials.code.value;
+            var database ={ '1234':'passwd1','0000':'passwd2','9090':'passwd3' };
+            var infoLabel = document.getElementById('info');
+            if (database.hasOwnProperty(user)) {
+                if (database[user] == password.trim()){
+                    alert('logged in successfully');
+                    window.location.href = 'page1.html'
+                    return true
+                }
+                else {
+                    infoLabel.innerHTML = 'Incorrect password';
+                }
+             
+            }
+            else {
+              //  alert('ERROR\n'+user+'\n'+ password)
+                infoLabel.innerHTML = 'Error : Incorrect id';
+                return false
+                
+            }
+
+        }
+        
+    </script>    
+</html>

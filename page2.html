@@ -1,0 +1,59 @@
+<! Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <!-- <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="sidenav-trigger">☰ Menu</a>
+                <a href="#" class="brand-logo"> Logo</a>
+                
+            </div>
+        </nav> -->
+        <h1>E-VOTING System</h1>
+        <div class="parent">
+            <form name="vote" class="candidate" >
+                <label class="position">HEAD  BOYS UTILITY PREFECT</label>
+                <div class="profile">
+                    <img class="pic" src="#" alt="👤">
+                    <span>Elorm Oswald Tsobeste</span>
+                    <input id="prefect"name="prefect" type="radio" value="bouncer">
+                </div>
+                <div class="profile">
+                    <img class="pic" src="#" alt="👤">
+                    <span>Kelvin Ayummah</span>
+                    <input id="prefect"name="prefect" type="radio" value="HV">
+                </div>
+            </form>
+        </div>
+        
+        <footer>
+           
+               <button id="simple" type="submit" onclick="changePage(event);">vote</button>
+               <button style="background-color:red;" id="simple" onclick="skip(event);">skip</button>
+     
+        </footer>
+    </body>
+    <script>
+        function skip(event){
+            event.preventDefault()
+            alert("skipppiiing!!!");
+            window.location.href = 'login.htm'
+        }
+        function changePage(event){
+            event.preventDefault()
+            let chk = document.getElementById("prefect")
+            /*if (document.input.prefect.bouncer.checked){
+                alert("bouncer")
+            }**/
+            window.location.href ="page3.html"
+        }
+    </script>
+    
+</html>

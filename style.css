@@ -1,0 +1,142 @@
+  body{
+                background-color: #e4e5e6;
+                font-family:  Arial;
+                color: #333;
+                line-height: 1.6;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .login {
+                background: #a11fb4;
+                margin: 30px;
+                width: 85%;
+                height: 450px;
+                border-radius: 20px;
+                background-size: cover;
+                color: white;
+                box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+            }
+            .parent {
+                height: 600px;
+            }
+            .candidate {
+                border: solid rgb(20,88,45);
+                background: #f1f1f1;
+                margin: 1;
+                height: 90%;
+                width: 350px;
+            }
+            form {
+                height: 100%;
+                display : block;
+                padding: 10px;
+                box-sizing: border-box;
+                flex-direction: column;
+                display: flex;
+                margin-bottom: 10px;
+            }
+            button {
+                margin: 10px 0px;
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 20px;
+            }
+            button#simple {
+                width: 150px;
+                height: 44px;
+                background: rgba(16,70,200,0.75);
+                border: none;
+                outline-color: none;
+                border-radius: 6px;
+                
+                
+                
+            }
+            label {
+                text-transform: uppercase;
+                font-size: 12px;
+                letter-spacing: 2px;
+                padding-left: 10px;
+            }
+            label#user{
+                text-align: left;
+            }
+            .position {
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+            input{
+                height: 40px;
+                line-height: 0px;
+                background: rgba(255,255,255,0.1);
+                border: none;
+                border-radius: 20px;
+                margin-bottom: 55px;
+                
+            }
+            .line-input {
+                
+            }
+            #info {
+                background: rgba(180,10,30,0.75);
+                font-size: 13px;
+                margin-top: 20px;
+                border-radius: 7px;
+                box-shadow: 0px 5px 2px rgba(5,5,5,0.4);
+                color: rgb(241,251,241);
+            }    
+            .profile {
+                display : flex;
+                line-height: 1.7;
+                background: #ffffff;
+                font-weight: bold;
+                font-size: 20;
+                height: 30%;
+                width: 320px;
+                margin-top: 30;
+                margin-left: 3px;
+                border-radius: 7px;
+                margin-bottom: 5px;
+            }
+            .profile input{
+                margin-top : 45px;
+                margin-left: 43px;
+               /* margin-right: 7px;*/
+            }
+            .profile span.profile {
+                margin-left: 10px;
+                margin-top: 45px;
+                
+            }
+            .pic {
+                margin: 10;
+                height: 75;
+                font-size: 40;
+                text-align: center;
+                border: solid rgb(20,88,45);
+            }
+            footer {
+                display: flexbox;
+                margin-top : 40px;
+                margin-bottom : 40px;
+                
+            }
+            nav {
+                margin: 0;
+                background-color: #04BCEF;
+                width: 120%;
+                height: 50px;
+                box-shadow: 0px 1px 6px rgba(20,20,20,0.64);
+                text-decoration: none;
+                text-decoration-color: white;
+               
+               
+            }
+   
