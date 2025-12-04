@@ -77,8 +77,9 @@
                 line-height: 0px;
                 background: rgba(255,255,255,0.31);
                 border: none;
-                outline : none;
+                outline: none;
                 border-radius: 20px;
+                margin-top: 7px;
                 
             }
             .line-input {
