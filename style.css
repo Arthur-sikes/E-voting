@@ -75,10 +75,10 @@
             input{
                 height: 40px;
                 line-height: 0px;
-                background: rgba(255,255,255,0.1);
+                background: rgba(255,255,255,0.31);
                 border: none;
+                outline : none;
                 border-radius: 20px;
-                margin-bottom: 7px;
                 
             }
             .line-input {
